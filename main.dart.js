@@ -36708,7 +36708,7 @@ t.av(new F.N9(t))},
 E7:function(){var t=this.f
 if(t!=null){t.aH(0)
 this.f=null}this.a.Jn()},
-H:function(a){var t,s,r,q,p,o=this,n=null,m="BalsamiqSans",l=L.kT("Subtraction",n),k=L.kT(H.a(o.a.c)+" "+H.a(o.a.z)+" "+H.a(o.a.d)+" = ",F.T0(a)),j=o.a.e
+H:function(a){var t,s,r,q,p,o=this,n=null,m="BalsamiqSans",l=L.kT("Subtraction",n),k=L.kT(H.a(o.a.c)+H.a(o.a.z)+H.a(o.a.d)+" = ",F.T0(a)),j=o.a.e
 j=j==null?n:C.f.h(j)
 if(j==null)j=" __ "
 t=u.t
@@ -36789,7 +36789,7 @@ else{q=r.c
 s=t>9?C.c.dl(C.f.h(t),1)+J.bq(q):C.f.h(t)+J.bq(q)}t=P.lT(s,null)
 return r.a.a.GP(t)}}
 T.Fw.prototype={
-pT:function(a){var t=this.a.a.x.ql(10),s=this.a.a.x.ql(Math.min(t,10))
+pT:function(a){var t=this.a.a.x.ql(13),s=this.a.a.x.ql(Math.min(t,13))
 return this.a.a.GR(null,t,!1,s,new Y.jR(!1,u.lh))}}
 Z.D6.prototype={
 ql:function(a){if(a===1)return 1
