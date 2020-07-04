@@ -36708,17 +36708,19 @@ t.av(new F.N9(t))},
 E7:function(){var t=this.f
 if(t!=null){t.aH(0)
 this.f=null}this.a.Jn()},
-H:function(a){var t,s,r,q,p,o=this,n=null,m="BalsamiqSans",l=L.kT("Subtraction",n),k=L.kT(H.a(o.a.c)+H.a(o.a.z)+H.a(o.a.d)+" = ",F.T0(a)),j=o.a.e
-j=j==null?n:C.f.h(j)
-if(j==null)j=" __ "
+H:function(a){var t,s,r,q,p,o,n=this,m=null,l="BalsamiqSans",k=L.kT("Subtraction",m),j=L.kT(H.a(n.a.c)+H.a(n.a.z)+H.a(n.a.d)+" = ",F.T0(a)),i=n.a.e
+i=i==null?m:C.f.h(i)
+if(i==null)i=" __ "
 t=u.t
-j=T.Rj(H.b([k,L.kT(j,F.T0(a))],t),C.eZ,C.l4,C.fF)
-k=u.F6
-s=T.Rj(H.b([L.kT(J.bq(o.a.r),K.b4(a).y2.a.kW(C.vT,m,80,H.b([new P.eu(C.l5.i(0,200),new P.x(3,4),12)],k)))],t),C.eZ,C.l4,C.fF)
-r=B.uc(n,L.QG(C.u1),100,o.gE6(),n)
-q=L.QG(C.tY)
-p=o.a
-return new M.oy(new E.ma(l,new P.af(1/0,56),n),M.Dq(n,T.Yh(H.b([j,s,T.Rj(H.b([r,B.uc(n,q,100,p.f?p.cx:n,n),L.kT(J.bq(o.d),K.b4(a).y2.a.kW(C.vU,m,80,H.b([new P.eu(C.l5.i(0,200),new P.x(3,4),12)],k)))],t),C.eZ,C.oa,C.fF),new F.us(o.a.ch,o.e,n)],t),C.o9),n,n,n,n,new V.aI(0,0,0,10),n),n)}}
+i=T.Rj(H.b([j,L.kT(i,F.T0(a))],t),C.eZ,C.l4,C.fF)
+j=u.F6
+s=T.Rj(H.b([L.kT(J.bq(n.a.r),K.b4(a).y2.a.kW(C.vT,l,80,H.b([new P.eu(C.l5.i(0,200),new P.x(3,4),12)],j)))],t),C.eZ,C.l4,C.fF)
+r=L.QG(C.u1)
+q=n.a
+p=q.f
+r=B.uc(m,r,100,!p?n.gE6():m,m)
+o=L.QG(C.tY)
+return new M.oy(new E.ma(k,new P.af(1/0,56),m),M.Dq(m,T.Yh(H.b([i,s,T.Rj(H.b([r,B.uc(m,o,100,p?q.cx:m,m),L.kT(J.bq(n.d),K.b4(a).y2.a.kW(C.vU,l,80,H.b([new P.eu(C.l5.i(0,200),new P.x(3,4),12)],j)))],t),C.eZ,C.oa,C.fF),new F.us(n.a.ch,n.e,m)],t),C.o9),m,m,m,m,new V.aI(0,0,0,10),m),m)}}
 F.Nb.prototype={
 $1:function(a){var t,s,r,q,p=this.a
 if(p.c!=null){p.av(new F.Na(p))
@@ -36789,11 +36791,10 @@ else{q=r.c
 s=t>9?C.c.dl(C.f.h(t),1)+J.bq(q):C.f.h(t)+J.bq(q)}t=P.lT(s,null)
 return r.a.a.GP(t)}}
 T.Fw.prototype={
-pT:function(a){var t=this.a.a.x.ql(13),s=this.a.a.x.ql(Math.min(t,13))
-return this.a.a.GR(null,t,!1,s,new Y.jR(!1,u.lh))}}
+pT:function(a){var t=this.a.a.x,s=t.ql(3,3),r=t.ql(2,Math.min(s,3))
+return this.a.a.GR(null,s,!1,r,new Y.jR(!1,u.lh))}}
 Z.D6.prototype={
-ql:function(a){if(a===1)return 1
-return this.a.Jl(a-1)+1}}
+ql:function(a,b){return a+this.a.Jl(b+1-a)}}
 L.Kg.prototype={}
 M.e5.prototype={
 cS:function(a,b,c,d){var t=this.d
