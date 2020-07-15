@@ -36923,7 +36923,7 @@ t=r.a-r.b
 s=r.c
 return r.H3(t,!0,s!=null&&s===t?r.e+1:0)}}
 U.FO.prototype={
-pV:function(a){var t=new L.Ky(C.r_),s=t.qn(14,14),r=t.qn(2,Math.min(s-1,13))
+pV:function(a){var t=new L.Ky(C.r_),s=t.qn(10,14),r=t.qn(2,Math.min(s-1,13))
 return this.a.a.H4(null,s,!1,r)}}
 T.t4.prototype={
 h:function(a){return"CalculatorTypes.subtraction"}}
