@@ -44261,7 +44261,7 @@ if(s!=null){s.aH(0)
 this.f=null}this.a.O7()},
 IQ:function(){this.a.O9()
 this.Kd()},
-J:function(a,b){var s,r,q,p,o,n=this,m=null,l="BalsamiqSans",k=L.lT("Subtraction",m),j=H.b(n.a.c),i=n.a
+J:function(a,b){var s,r,q,p,o,n=this,m=null,l="BalsamiqSans",k=L.lT("Multiplication",m),j=H.b(n.a.c),i=n.a
 i=L.lT(j+i.y+H.b(i.d)+" = ",F.YF(b))
 j=n.a.e
 j=j==null?m:C.h.i(j)
@@ -44318,7 +44318,7 @@ s=q.a*q.b
 r=q.c
 return q.LT(s,!0,r!=null&&r===s?q.e+1:0)}}
 U.It.prototype={
-tl:function(a){var s=new L.Kt(C.rW),r=s.tN(1,5),q=s.tN(1,5)
+tl:function(a){var s=new L.Kt(C.rW),r=s.tN(1,5),q=s.tN(1,10)
 return this.a.a.LU(null,r,!1,q)}}
 T.uj.prototype={
 i:function(a){return"CalculatorTypes.multiplication"}}
