@@ -47884,7 +47884,7 @@ s=q.a*q.b
 r=q.c
 return q.Rc(s,!0,r!=null&&r===s?q.e+1:0)}}
 U.py.prototype={
-lS:function(a){var s=new L.NT(C.tm),r=s.vj(1,10),q=s.vj(1,10)
+lS:function(a){var s=new L.NT(C.tm),r=s.vj(1,9),q=s.vj(1,10)
 return this.a.a.Rd(null,r,!1,q)}}
 T.w9.prototype={
 i:function(a){return"CalculatorTypes.multiplication"}}
